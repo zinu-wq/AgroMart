@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroMart - Fresh From Farmers</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+
+<div class="logo">
+🌱 AgroMart
+</div>
+<div class="search-box">
+<input 
+id="searchInput"
+type="text" 
+placeholder="Search fresh products..."
+>
+
+</div>
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="#products">
+Products
+</a>
+
+<a href="#farmers">
+Farmers
+</a>
+
+<a href="#about">
+About Us
+</a>
+
+<a href="login.html">
+<button>
+Login
+</button>
+</a>
+
+<a href="register.html">
+<button>
+Register
+</button>
+</a>
+
+</nav>
+</header>
+<section class="hero">
+<div class="hero-content">
+<h1>
+Fresh Products<br>
+Direct From Farmers
+</h1>
+
+<p>
+Buy fresh agricultural products directly from trusted local farmers.
+</p>
+
+<a href="#products">
+
+<button class="primary-btn">
+Explore Products
+</button>
+
+</a>
+
+
+<div class="stats">
+
+<div>
+<h2>500+</h2>
+<p>Farmers</p>
+</div>
+
+<div>
+<h2>1000+</h2>
+<p>Products</p>
+</div>
+<div>
+<h2>50+</h2>
+<p>Locations</p>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="categories">
+
+<h2>
+Shop By Category
+</h2>
+
+<div class="category-container">
+
+
+<div class="category-card" onclick="filterCategory('Rice')">
+🌾
+<h3>Rice</h3>
+</div>
+
+
+<div class="category-card" onclick="filterCategory('Vegetable')">
+🥦
+<h3>Vegetable</h3>
+</div>
+
+
+<div class="category-card" onclick="filterCategory('Fruit')">
+🍎
+<h3>Fruit</h3>
+</div>
+
+
+<div class="category-card" onclick="filterCategory('Organic')">
+🌱
+<h3>Organic</h3>
+</div>
+
+
+</div>
+
+</section>
+
+<section class="products-section">
+<h2>
+Featured Products
+</h2>
+<div id="products" class="products">
+</div>
+</section>
+<section id="farmers" class="farmers-section">
+
+<h2>
+Our Farmers
+</h2>
+
+<p>
+Trusted local farmers providing fresh agricultural products directly to customers.
+</p>
+
+</section>
+
+<section id="about" class="about-section">
+
+<h2>
+About AgroMart
+</h2>
+
+<p>
+Welcome to AgroMart, your trusted online marketplace connecting local farmers directly with customers. 
+We provide fresh, high-quality agricultural products sourced from reliable farmers across Bangladesh.
+</p>
+
+
+<p>
+<b>Our Mission:</b> To make fresh farm products easily available while helping farmers get better opportunities to sell their products directly.
+</p>
+
+
+<p>
+<b>Our Products:</b> Fresh rice, vegetables, fruits, organic products, fish, dairy items and other agricultural products.
+</p>
+
+
+<p>
+<b>Why Choose AgroMart?</b>
+</p>
+
+<ul>
+
+<li>Fresh products directly from farmers</li>
+
+<li>Trusted local sellers</li>
+
+<li>Quality agricultural products</li>
+
+<li>Simple and convenient online shopping</li>
+
+</ul>
+
+
+<p>
+At AgroMart, we believe in building a strong connection between farmers and customers through technology.
+</p>
+
+
+</section>
+
+<footer>
+<h3>
+🌱 AgroMart
+</h3>
+<p>
+Connecting farmers and customers
+</p>
+
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Rice",
+    "price": 70,
+    "category": "Rice",
+    "location": "Rajshahi",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c",
+    "farmer": "Rahim Agro Farm",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 2,
+    "name": "Fresh Tomato",
+    "price": 50,
+    "category": "Vegetable",
+    "location": "Bogura",
+    "image": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337",
+    "farmer": "Green Valley Farm",
+    "rating": "⭐⭐⭐⭐"
+  },
+  {
+    "id": 3,
+    "name": "lithi",
+    "price": "300",
+    "category": "Fruit",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b",
+    "farmer": "rahim",
+    "quantity": "30",
+    "description": "fresh litchi",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 4,
+    "name": "rice",
+    "price": "50",
+    "category": "Rice",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6",
+    "farmer": "hashem",
+    "quantity": "50",
+    "description": "fresh rice",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 5,
+    "name": "tea",
+    "price": "50",
+    "category": "Organic",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+    "farmer": "hasem",
+    "quantity": "50",
+    "description": "fresh tea",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 6,
+    "name": "hilsha",
+    "price": "800",
+    "category": "Fish",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44",
+    "farmer": "titu",
+    "quantity": "20",
+    "description": "fresh fish",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 7,
+    "name": "potato",
+    "price": "40",
+    "category": "Vegetable",
+    "location": "Rangpur",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e",
+    "farmer": "Rahim",
+    "quantity": "50",
+    "description": "fresh potato",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 8,
+    "name": "carrot",
+    "price": "30",
+    "category": "Vegetable",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e",
+    "farmer": "kuku",
+    "quantity": "30",
+    "description": "fresh carrot",
+    "rating": "⭐⭐⭐⭐⭐"
+  },
+  {
+    "id": 9,
+    "name": "apple",
+    "price": "50",
+    "category": "Fruit",
+    "location": "dhaka",
+    "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b",
+    "farmer": "zuru",
+    "quantity": "60",
+    "description": "fresh apple",
+    "rating": "⭐⭐⭐⭐⭐"
+  }
+]

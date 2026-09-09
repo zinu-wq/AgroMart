@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Cart - AgroMart</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<h1>
+🛒 My Cart
+</h1>
+<div id="cartItems" class="products"></div>
+<div id="successModal" class="modal">
+
+    <div class="modal-box">
+
+        <h2>✅ Order Successful!</h2>
+
+        <p>Your order has been placed successfully.</p>
+
+        <button type="button" onclick="closeModal()">
+OK
+</button>
+
+    </div>
+
+</div>
+<div class="cart-summary">
+
+<h2>
+Total: ৳<span id="totalPrice">0</span>
+</h2>
+<button type="button" onclick="checkout()">
+Proceed To Checkout
+</button>
+
+</div>
+
+<script src="cart.js"></script>
+
+
+</body>
+
+</html>

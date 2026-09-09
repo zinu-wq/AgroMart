@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard - AgroMart</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body onload="checkLogin('admin')"> 
+
+
+<header class="navbar">
+
+<div class="logo">
+👑 AgroMart Admin
+</div>
+
+<nav>
+
+<a href="index.html">
+Customer View
+</a>
+
+<button onclick="logoutUser()">
+Logout
+</button>
+
+</nav>
+
+</header>
+
+
+
+<h1 style="text-align:center;margin:40px;">
+Admin Dashboard
+</h1>
+
+
+
+<section class="products-section">
+
+<h2>
+All Products
+</h2>
+
+
+<div id="adminProducts" class="products">
+
+</div>
+
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
