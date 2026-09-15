@@ -1,42 +1,42 @@
 # 🌱 AgroMart - Farmers Marketplace Web Application
 
-AgroMart is a full-stack web application that connects farmers and customers through a digital marketplace.
+AgroMart is a full-stack web application that connects farmers and customers through a digital marketplace. Customers can browse agricultural products, view product details, add products to cart, and place orders. Farmers can manage their products through a dashboard.
 
-## Features
+## ✨ Features
 
-- Farmer product management
+### Customer Features
+- User registration and login
 - Browse agricultural products
+- Search products
+- View product details
+- Add products to cart
+- Checkout system
+
+### Farmer Features
+- Farmer dashboard
 - Add new products
-- Delete/update products
+- Update products
+- Delete products
+- Manage farm products
+
+### Backend Features
 - REST API based backend
-- Responsive frontend
+- Product management API
+- User authentication API
+- Order handling system
 
-## Technologies
+## 🛠 Technologies
 
-Frontend:
+### Frontend
 - HTML
 - CSS
 - JavaScript
 
-Backend:
+### Backend
 - Node.js
 - Express.js
 
-Database:
-- JSON / MongoDB (যেটা ব্যবহার করেছেন)
+### Data Storage
+- JSON File Storage
 
-## Project Structure
-
-AgroMart
-│
-├── frontend
-└── backend
-
-## How to Run
-
-Backend:
-npm install
-npm start
-
-Frontend:
-Open index.html
+## 📂 Project Structure
